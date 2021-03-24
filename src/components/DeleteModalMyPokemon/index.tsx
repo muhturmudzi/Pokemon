@@ -6,7 +6,6 @@ import CloseIcon from 'assets/svg/close'
 
 type Props = {
   inProp: boolean,
-  // taskStatus: 'completed' | 'uncompleted',
   onDelete: () => void,
   onCancel: () => void
 }
@@ -83,8 +82,6 @@ const DeleteModal: React.FC<Props> = ({ inProp, onDelete, onCancel }) => {
               <button
                 onClick={onDelete}
                 className={buttonStyle}>
-                {/* {taskStatus === 'completed'?
-                'Delete completed task' : 'Delete uncompleted task'} */}
                 Remove Pokemon
               </button>
             </div>
