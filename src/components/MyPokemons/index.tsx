@@ -41,7 +41,6 @@ const TaskList: React.FC = () => {
       types: res.types,
       moves: res.moves.length > 4 ? res.moves.splice(0, 4) : res.moves
     }
-    console.log('data id nya yg diklik', id)
     setshowDetailPokemon(true)
     setDataDetailPokemon(item)
   }

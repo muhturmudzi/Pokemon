@@ -111,7 +111,6 @@ const DetailPokemon: React.FC<Props> = ({ datas, inProp, onClose, tipe }) => {
 
   const catchIt = () => {
     const isShow = Math.round(Math.random())
-    console.log('hasil generate catch', isShow)
     if (isShow === 1) setShowFormAdd(true)
     if (isShow === 0) setLabelCatch('Again')
   }
